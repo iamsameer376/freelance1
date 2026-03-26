@@ -22,10 +22,10 @@ interface UserContextType {
   addOrder: (order: Order) => void;
 }
 const defaultUser: User = {
-  name: 'KULTWEB TECHNOLOGIES',
-  email: 'kult@example.com',
+  name: 'Kultweb Technologies',
+  email: 'ceo@kultweb.com',
   phone: '+91 9999999999',
-  address: '123,Noida, New Delhi, India',
+  address: '123, Noida, New Delhi, India',
 };
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
