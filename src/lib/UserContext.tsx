@@ -21,12 +21,11 @@ interface UserContextType {
   updateUser: (user: User) => void;
   addOrder: (order: Order) => void;
 }
-
 const defaultUser: User = {
-  name: 'Mohammed Sameer',
-  email: 'sameer@example.com',
+  name: 'KULTWEB TECHNOLOGIES',
+  email: 'kult@example.com',
   phone: '+91 9999999999',
-  address: '123, Green Park, New Delhi, India',
+  address: '123,Noida, New Delhi, India',
 };
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
